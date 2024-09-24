@@ -18,8 +18,7 @@ return new class extends Migration
             $table->string('title');
             $table->integer('pieces');
             $table->timestamps();
-        });
-
+        });3
 
         books::create([
             
